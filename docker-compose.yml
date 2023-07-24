@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  app:
+    build:
+      context: "."
+      args:
+        BOT_TOKEN: TOKEN
+        CHAT_ID: CHAT_ID
+        DELAY_SECONDS: 60
+        PATH_URLS: PATH_URLS
